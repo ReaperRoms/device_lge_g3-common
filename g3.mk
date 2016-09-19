@@ -101,9 +101,13 @@ PRODUCT_PACKAGES += \
     memtrack.msm8974 \
     liboverlay
 
-# Gello
+# Telephony-ext packages
 PRODUCT_PACKAGES += \
-    Gello
+   telephony-ext \
+   ims-ext-common
+
+PRODUCT_BOOT_JARS += \
+   telephony-ext
 
 # GPS
 PRODUCT_PACKAGES += \
